@@ -1,0 +1,29 @@
+.service-icon {
+    background-color: $white;
+    color: $primary;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-family: 'Courier New';
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(22, 111, 245, 0.801);
+}
+
+.position_title {
+    float: left;
+}
+
+.duration {
+    float: right;
+}
+
+.job_description {
+    font-size: 20px;
+}
