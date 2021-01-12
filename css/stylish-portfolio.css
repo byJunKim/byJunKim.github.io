@@ -14,6 +14,27 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+.heading {
+  font-family: 'Courier New';
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: rgba(22, 111, 245, 0.801);
+  text-decoration-color: rgba(22, 111, 245, 0.801);
+}
+
+.position_title {
+  float: left;
+}
+
+.duration {
+  float: right;
+}
+
+.job_description {
+  font-size: 20px;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -232,56 +253,6 @@ h6 {
   background: #343a40;
 }
 
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.heading {
-  font-family: 'Courier New';
-  -webkit-text-decoration-line: underline;
-  text-decoration-line: underline;
-  text-decoration-thickness: 5px;
-  -webkit-text-decoration-color: rgba(22, 111, 245, 0.801);
-  text-decoration-color: rgba(22, 111, 245, 0.801);
-}
-
-.position_title {
-  float: left;
-}
-
-.duration {
-  float: right;
-}
-
-.job_description {
-  font-size: 20px;
-}
-
-.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/technology_background.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-}
-
-.callout h5 {
-  max-width: 50rem;
-}
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -377,6 +348,28 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
+}
+
+.techskill {
+  padding: 6rem 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/technology_background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.techskill h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+}
+
+.techskill h5 {
+  max-width: 50rem;
 }
 
 a {
